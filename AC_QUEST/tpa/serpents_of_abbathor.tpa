@@ -665,6 +665,12 @@ ACTION_IF GAME_IS ~bgt eet~ BEGIN
     GET_OFFSET_ARRAY items CRE_V10_ITEMS
     PHP_EACH items AS i => item BEGIN
       READ_ASCII item item_filename
+      PATCH_IF (~%item_filename%~ STR_EQ ~RNDTRE02~) BEGIN
+        WRITE_ASCII item ~RNDTRE06~
+      END
+      PATCH_IF (~%item_filename%~ STR_EQ ~RNDTRE03~) BEGIN
+        WRITE_ASCII item ~RNDTRE07~
+      END
       PATCH_IF (~%item_filename%~ STR_EQ ~RNDTRE04~) BEGIN
         WRITE_ASCII item ~RNDTRE08~
       END
