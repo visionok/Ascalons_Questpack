@@ -9,35 +9,17 @@ THEN
 END
 
 IF
-	Global("ACQWOSTOK","GLOBAL",3)
+    Global("ACQWOSTOK","GLOBAL",3)
 THEN
-	RESPONSE #100
-		SetInterrupt(FALSE)
-		SetGlobal("ACQWOSTOK","GLOBAL",4)
-		CreateCreature("ACQ10125",[713.297],7)
-		CreateCreature("ACQ10126",[744.270],3)
-		CreateCreature("ACQ10110",[627.234],3)
-		CreateCreature("ACQ10109",[596.258],3)
-		ActionOverride("ACSecret",DestroyItem("ACQ10101"))
-		SetInterrupt(TRUE)
-END
-
-IF
-	Global("ACQWOSTOK","GLOBAL",4)
-	Exists("ACQ10109")
-	Exists("ACQ10110")
-	Global("ACPREP","%NWBaldursGate_Tavern_L2%",0)
-THEN
-	RESPONSE #100
-		SetInterrupt(FALSE)
-		ActionOverride("ACQ10110",CreateItem("ACQKEY02",0,0,0))
-		SmallWait(1)
-		ActionOverride("ACQ10110",CreateItem("ACQLET06",0,0,0))
-		SmallWait(1)
-		ActionOverride("ACQ10110",Enemy())
-		ActionOverride("ACQ10109",Enemy())
-		SetGlobal("ACPREP","%NWBaldursGate_Tavern_L2%",2)
-		SetInterrupt(TRUE)
+    RESPONSE #100
+        SetInterrupt(FALSE)
+        CreateCreature("ACQ10125",[713.297],7)  // Jasr - Jas
+        CreateCreature("ACQ10126",[744.270],3)  // Jen
+        CreateCreature("ACQ10110",[627.234],3)  // Abbathor Cleric
+        CreateCreature("ACQ10109",[596.258],3)  // Abbathor Fanatic
+        ActionOverride("ACSecret",DestroyItem("ACQ10101"))  // Dwarven Artifact
+        SetGlobal("ACQWOSTOK","GLOBAL",4)
+        SetInterrupt(TRUE)
 END
 
 IF
