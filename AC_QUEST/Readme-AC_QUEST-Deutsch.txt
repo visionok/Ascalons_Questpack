@@ -326,6 +326,14 @@ Still missing: Italian
 -German EE item descriptions translated and revised.
 -Corrected German typos.
 
+6.4 - 2025-12-17
+-tagg body items (Wostok) as "Male bodies - 48" instead of "Miscellaneous" so it can't be put into a bag of holding; reduced weight to 80.
+-Wostok should spawn in temple of Helm if Draglon was talked to, first.
+-Warehouse key should be on hostile dwarves. The items are now in the cre's inventory and the allegiance is set to ENEMY. This should fix this once and for all. Like, for REAL.
+-Serpents of Abathor: Zhentarim Emissary should not use Xzar's portrait.
+-correct all loot for BGT/EET: should not be too powerful.
+-Typo correction.
+
 ***************************************************************************************************************
 
 
