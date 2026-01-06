@@ -42,7 +42,7 @@
 @41   = ~Would you do that for me? That would be great of you!~
 @42   = ~Oh please, <SIRMAAM>, don't say that!~
 @43   = ~Please wait another moment, <SIRMAAM>.~
-@44   = ~I know there may be no other way... but I would never forgive me if I had not tried everything. I beg of you, talk to Thalantyr. Try to convince him to produce a cure for Tonder.~
+@44   = ~I know there may be no other way... but I would never forgive myself if I had not tried everything. I beg of you, talk to Thalantyr. Try to convince him to produce a cure for Tonder.~
 @45   = ~If this fails... then... do what has to be done. (sighs heavily) I only ask you... please, try every other way first. Please.~
 @46   = ~Please talk to Thalantyr!~
 @47   = ~I've heard you talking inside. What will you do?~
@@ -177,7 +177,7 @@
 
 /* new for v 4.0 */
 //@26, rephrased for new location
-@170   = ~Tonder and I moved into the little house which lies at the southwest boundary of Beregost. We wanted nothing but till the lands and live in peace, but a few days ago, Tonder was attacked by a large animal! If not for Thalantyr my huband would have been devoured.~
+@170   = ~Tonder and I moved into the little house which lies at the southwest boundary of Beregost. We wanted nothing but till the lands and live in peace, but a few days ago, Tonder was attacked by a large animal! If not for Thalantyr, my husband would have been devoured.~
 
 //@84, rephrased for new location
 @171   = ~Apparently, this woman Aiwell moved into a house at the southwest boundary of Beregost a few weeks ago, along with her dawdler of a husband.~
